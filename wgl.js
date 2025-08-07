@@ -27,6 +27,9 @@
         };
 
         return {
+            absf: (f) => {
+                return Math.abs(f);
+            },
             sinf: (f) => {
                 return Math.sin(f);
             },
